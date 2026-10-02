@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P. Varshika | Skills</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="skills">
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html" aria-label="Varshika home"><span class="brand-mark">V</span> Varshika</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="index.html" data-page="home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" data-page="about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="education.html" data-page="education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="skills.html" data-page="skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html" data-page="projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="achievements.html" data-page="achievements">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" data-page="contact">Contact</a></li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode"><i class="bi bi-moon-stars-fill" id="themeIcon"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-padding page-intro">
+      <div class="container">
+        <span class="section-kicker">01 • SKILLS</span>
+        <h1>Technical toolkit</h1>
+        <p>My skill set spans web development, programming, data exploration, and security awareness, reflecting my current learning focus in Computer Science.</p>
+      </div>
+    </section>
+
+    <section class="section-padding section-alt">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-window-stack"></i>
+              <h3>Web</h3>
+              <ul><li>HTML5</li><li>CSS3</li><li>Bootstrap</li><li>JavaScript ES6+</li></ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-terminal"></i>
+              <h3>Programming</h3>
+              <ul><li>Python</li><li>Java</li><li>C</li><li>Logic building</li></ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-database"></i>
+              <h3>Data</h3>
+              <ul><li>SQL</li><li>Data Analysis</li><li>ML Fundamentals</li><li>Visualization</li></ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-shield-lock"></i>
+              <h3>Tools</h3>
+              <ul><li>Git</li><li>VS Code</li><li>Debugging</li><li>Documentation</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="container">
+        <div class="content-card">
+          <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div>
+              <h3 class="mb-1">Skill Explorer</h3>
+              <p class="mb-0 text-secondary">Click a category to view the relevant skills.</p>
+            </div>
+            <div class="btn-group" role="group" aria-label="Skill category selector">
+              <button class="btn btn-sm btn-primary skill-filter active" data-skill="all">All</button>
+              <button class="btn btn-sm btn-outline-primary skill-filter" data-skill="programming">Programming</button>
+              <button class="btn btn-sm btn-outline-primary skill-filter" data-skill="web">Web</button>
+              <button class="btn btn-sm btn-outline-primary skill-filter" data-skill="data">Data</button>
+              <button class="btn btn-sm btn-outline-primary skill-filter" data-skill="tools">Tools</button>
+            </div>
+          </div>
+          <div id="skillExplorer" class="skill-explorer mt-4" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <span>© <span id="year">2026</span> P. Varshika</span>
+      <span>Built with HTML5, CSS3, Bootstrap and JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

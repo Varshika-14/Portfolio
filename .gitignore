@@ -1,0 +1,8 @@
+# Ignore local and temporary artifacts
+node_modules/
+.vscode/
+*.log
+*.tmp
+*.zip
+*.docx
+.DS_Store
