@@ -92,3 +92,5 @@ The site can be deployed through GitHub Pages.
 The contact form is intentionally client-side only because the assignment asks for client-side validation. It does not send messages to a backend.
 
 Bootstrap is loaded from a CDN, so an internet connection is required for Bootstrap styling/components when running the raw HTML locally.
+
+For commit attribution, set this repository's local Git author name to `Varshika-14`; existing commits are not changed.
